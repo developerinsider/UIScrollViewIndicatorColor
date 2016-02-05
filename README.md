@@ -1,11 +1,10 @@
-# UIScrollViewIndicatorColor
+### UIScrollViewIndicatorColor
 
-## Overview
+#### Overview
 
 **UIScrollViewIndicatorColor
 **, an example for how to change the color of `UIScrollview` scroll indicator.
 
-#### Inline code and Block code
 ##### Add UIScrollViewDelegate
 
 	@interface ViewController : UIViewController<UIScrollViewDelegate>
