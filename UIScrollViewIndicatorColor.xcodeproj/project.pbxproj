@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E19BB5F11A9897E200C1BBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BB5F01A9897E200C1BBAF /* main.m */; };
+		E19BB5F41A9897E200C1BBAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BB5F31A9897E200C1BBAF /* AppDelegate.m */; };
+		E19BB5F71A9897E200C1BBAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BB5F61A9897E200C1BBAF /* ViewController.m */; };
+		E19BB5FA1A9897E200C1BBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19BB5F81A9897E200C1BBAF /* Main.storyboard */; };
+		E19BB5FC1A9897E200C1BBAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19BB5FB1A9897E200C1BBAF /* Images.xcassets */; };
+		E19BB5FF1A9897E200C1BBAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19BB5FD1A9897E200C1BBAF /* LaunchScreen.xib */; };
+		E19BB60B1A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BB60A1A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.m */; };
+		E19BB6151A98982700C1BBAF /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E19BB6141A98982700C1BBAF /* photo1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19BB6051A9897E200C1BBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19BB5E31A9897E100C1BBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19BB5EA1A9897E200C1BBAF;
+			remoteInfo = UIScrollViewIndicatorColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E19BB5EB1A9897E200C1BBAF /* UIScrollViewIndicatorColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewIndicatorColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19BB5EF1A9897E200C1BBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19BB5F01A9897E200C1BBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E19BB5F21A9897E200C1BBAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E19BB5F31A9897E200C1BBAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E19BB5F51A9897E200C1BBAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19BB5F61A9897E200C1BBAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19BB5F91A9897E200C1BBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19BB5FB1A9897E200C1BBAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E19BB5FE1A9897E200C1BBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E19BB6041A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewIndicatorColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19BB6091A9897E200C1BBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19BB60A1A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewIndicatorColorTests.m; sourceTree = "<group>"; };
+		E19BB6141A98982700C1BBAF /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19BB5E81A9897E200C1BBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19BB6011A9897E200C1BBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19BB5E21A9897E100C1BBAF = {
+			isa = PBXGroup;
+			children = (
+				E19BB5ED1A9897E200C1BBAF /* UIScrollViewIndicatorColor */,
+				E19BB6071A9897E200C1BBAF /* UIScrollViewIndicatorColorTests */,
+				E19BB5EC1A9897E200C1BBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19BB5EC1A9897E200C1BBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19BB5EB1A9897E200C1BBAF /* UIScrollViewIndicatorColor.app */,
+				E19BB6041A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19BB5ED1A9897E200C1BBAF /* UIScrollViewIndicatorColor */ = {
+			isa = PBXGroup;
+			children = (
+				E19BB6141A98982700C1BBAF /* photo1.png */,
+				E19BB5F21A9897E200C1BBAF /* AppDelegate.h */,
+				E19BB5F31A9897E200C1BBAF /* AppDelegate.m */,
+				E19BB5F51A9897E200C1BBAF /* ViewController.h */,
+				E19BB5F61A9897E200C1BBAF /* ViewController.m */,
+				E19BB5F81A9897E200C1BBAF /* Main.storyboard */,
+				E19BB5FB1A9897E200C1BBAF /* Images.xcassets */,
+				E19BB5FD1A9897E200C1BBAF /* LaunchScreen.xib */,
+				E19BB5EE1A9897E200C1BBAF /* Supporting Files */,
+			);
+			path = UIScrollViewIndicatorColor;
+			sourceTree = "<group>";
+		};
+		E19BB5EE1A9897E200C1BBAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19BB5EF1A9897E200C1BBAF /* Info.plist */,
+				E19BB5F01A9897E200C1BBAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E19BB6071A9897E200C1BBAF /* UIScrollViewIndicatorColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19BB60A1A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.m */,
+				E19BB6081A9897E200C1BBAF /* Supporting Files */,
+			);
+			path = UIScrollViewIndicatorColorTests;
+			sourceTree = "<group>";
+		};
+		E19BB6081A9897E200C1BBAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19BB6091A9897E200C1BBAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19BB5EA1A9897E200C1BBAF /* UIScrollViewIndicatorColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19BB60E1A9897E200C1BBAF /* Build configuration list for PBXNativeTarget "UIScrollViewIndicatorColor" */;
+			buildPhases = (
+				E19BB5E71A9897E200C1BBAF /* Sources */,
+				E19BB5E81A9897E200C1BBAF /* Frameworks */,
+				E19BB5E91A9897E200C1BBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollViewIndicatorColor;
+			productName = UIScrollViewIndicatorColor;
+			productReference = E19BB5EB1A9897E200C1BBAF /* UIScrollViewIndicatorColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19BB6031A9897E200C1BBAF /* UIScrollViewIndicatorColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19BB6111A9897E200C1BBAF /* Build configuration list for PBXNativeTarget "UIScrollViewIndicatorColorTests" */;
+			buildPhases = (
+				E19BB6001A9897E200C1BBAF /* Sources */,
+				E19BB6011A9897E200C1BBAF /* Frameworks */,
+				E19BB6021A9897E200C1BBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19BB6061A9897E200C1BBAF /* PBXTargetDependency */,
+			);
+			name = UIScrollViewIndicatorColorTests;
+			productName = UIScrollViewIndicatorColorTests;
+			productReference = E19BB6041A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19BB5E31A9897E100C1BBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Vineet Choudhary";
+				TargetAttributes = {
+					E19BB5EA1A9897E200C1BBAF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E19BB6031A9897E200C1BBAF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E19BB5EA1A9897E200C1BBAF;
+					};
+				};
+			};
+			buildConfigurationList = E19BB5E61A9897E100C1BBAF /* Build configuration list for PBXProject "UIScrollViewIndicatorColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19BB5E21A9897E100C1BBAF;
+			productRefGroup = E19BB5EC1A9897E200C1BBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19BB5EA1A9897E200C1BBAF /* UIScrollViewIndicatorColor */,
+				E19BB6031A9897E200C1BBAF /* UIScrollViewIndicatorColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19BB5E91A9897E200C1BBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19BB6151A98982700C1BBAF /* photo1.png in Resources */,
+				E19BB5FA1A9897E200C1BBAF /* Main.storyboard in Resources */,
+				E19BB5FF1A9897E200C1BBAF /* LaunchScreen.xib in Resources */,
+				E19BB5FC1A9897E200C1BBAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19BB6021A9897E200C1BBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19BB5E71A9897E200C1BBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19BB5F71A9897E200C1BBAF /* ViewController.m in Sources */,
+				E19BB5F41A9897E200C1BBAF /* AppDelegate.m in Sources */,
+				E19BB5F11A9897E200C1BBAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19BB6001A9897E200C1BBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19BB60B1A9897E200C1BBAF /* UIScrollViewIndicatorColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19BB6061A9897E200C1BBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19BB5EA1A9897E200C1BBAF /* UIScrollViewIndicatorColor */;
+			targetProxy = E19BB6051A9897E200C1BBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19BB5F81A9897E200C1BBAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19BB5F91A9897E200C1BBAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19BB5FD1A9897E200C1BBAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19BB5FE1A9897E200C1BBAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19BB60C1A9897E200C1BBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E19BB60D1A9897E200C1BBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19BB60F1A9897E200C1BBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollViewIndicatorColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E19BB6101A9897E200C1BBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollViewIndicatorColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E19BB6121A9897E200C1BBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollViewIndicatorColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewIndicatorColor.app/UIScrollViewIndicatorColor";
+			};
+			name = Debug;
+		};
+		E19BB6131A9897E200C1BBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollViewIndicatorColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollViewIndicatorColor.app/UIScrollViewIndicatorColor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19BB5E61A9897E100C1BBAF /* Build configuration list for PBXProject "UIScrollViewIndicatorColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19BB60C1A9897E200C1BBAF /* Debug */,
+				E19BB60D1A9897E200C1BBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19BB60E1A9897E200C1BBAF /* Build configuration list for PBXNativeTarget "UIScrollViewIndicatorColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19BB60F1A9897E200C1BBAF /* Debug */,
+				E19BB6101A9897E200C1BBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19BB6111A9897E200C1BBAF /* Build configuration list for PBXNativeTarget "UIScrollViewIndicatorColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19BB6121A9897E200C1BBAF /* Debug */,
+				E19BB6131A9897E200C1BBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19BB5E31A9897E100C1BBAF /* Project object */;
+}
