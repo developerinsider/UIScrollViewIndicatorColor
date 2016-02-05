@@ -1,6 +1,8 @@
 ### UIScrollViewIndicatorColor
+-----------------------------
 
-#### Overview
+### Overview
+------------
 
 **UIScrollViewIndicatorColor
 **, an example for how to change the color of `UIScrollview` scroll indicator.
@@ -28,6 +30,7 @@
 
 ![Mou icon](http://i.stack.imgur.com/jW54M.png)
 
-### And more?
+#### And more?
+-------------
 
 Check [StackOverflow Answer](http://stackoverflow.com/questions/12005187/ios-changing-uiscrollview-scrollbar-color-to-different-colors/28718210#28718210)
